@@ -1,0 +1,182 @@
+.container{
+ display: flex;
+   font-size: 18px;
+   border-bottom: 0.5px solid lightgray;
+      
+ }
+
+
+.item{
+    padding: 15px;
+    border:1px; 
+    
+}
+.box1{
+    margin-right: auto;
+      
+}
+ a:link{
+       text-decoration:none;
+      }
+
+ a:visited{
+  color:gray;
+    }
+
+.second-container{
+    display: flex;
+    flex: 1;
+    
+}
+
+.profile-image{
+    background-image: url("lilia-profile-pic.jpg");
+    background-size:contain;
+    flex:3;
+    height: 95vh;
+ 
+  
+}
+
+.right-rail{
+     flex:1;
+    padding: 75px;
+    text-align:left;
+    
+  
+}
+.head{
+    padding-bottom: 10px;
+}
+.head1{
+    padding-top: 15px;
+}
+.button {
+    background-color: #4CAF50; 
+    border: none;
+    color: white;
+    padding-top: 5px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 25px;
+    flex:1;
+    align-items: center;
+    border-radius: 5px;
+    width: 100%;
+    display:inline-block;
+    margin-top: 15px;
+  }
+  .education{
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+color: gray;
+  }
+  
+  #social{
+display: flex;
+list-style-type: none;
+padding: 0px;
+
+
+  }
+  .icon{
+    text-decoration: none;
+	color:grey;
+    margin: 0px 28px 0px 0px;
+    font-size: 20px;
+    border-radius: 50%;
+    border: solid 2px gray;
+    padding:7px 9px;
+    margin-right: 9px; 
+    display:inline-block;
+  }
+ 
+    .footer{
+      font-size: 18px;
+      border-top: 0.5px solid lightgray;
+      padding-top: 10px;
+      background-color: rgba(255,255,255, 0.6);
+      z-index: 1;
+      position: fixed;
+      bottom: 0;
+      width: 100%;
+      display: flex;
+     
+     }
+
+  .button-footer{
+    background-color: #4CAF50; 
+    border: none;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    font-size: 12px;
+    margin-left:40px;
+    border-radius: 5px;
+    padding: 10px 30px;
+  }
+
+  /*  mobile*/
+  
+ @media(min-width:0px) and (max-width:426px) 
+ {
+
+  .second-container{
+  
+  display: block;
+  }
+  .profile-image{
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 45h;
+  }
+
+
+  .footer{
+    width:100%;
+    flex-direction: column;
+  padding-bottom: 7px;
+  }
+
+  .button-footer{
+    margin-top:20px;
+    margin:0px auto;
+    
+  }
+  .box3,.box4,.box5{
+    display: none;
+  }
+  .head{
+    color:whitesmoke;
+    text-align: center;
+  }
+  
+  .right-rail{
+   top:-125px;
+    position: relative;
+    
+    padding: 0px 25px 0px 25px;
+  }
+  
+  .footer-text{
+    display: none;
+  
+  }
+  }
+  /* tablet*/
+  
+@media(min-width:427px) and (max-width:1440px){
+ 
+  .profile-image{
+    background-size: cover;
+   height: 95vh;
+   
+   background-position: center ;
+  
+  }
+  }
+
+  
