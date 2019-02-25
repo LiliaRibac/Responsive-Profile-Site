@@ -120,12 +120,12 @@ padding: 0px;
 
   /*  mobile*/
   
- @media(min-width:0px) and (max-width:426px) 
- {
-
+ @media(min-width:0px) and (max-width:426px) {
+ 
   .second-container{
   
   display: block;
+
   }
   .profile-image{
   background-position: center center;
@@ -157,13 +157,22 @@ padding: 0px;
   .right-rail{
    top:-125px;
     position: relative;
-    
     padding: 0px 25px 0px 25px;
   }
   
   .footer-text{
     display: none;
   
+  }
+  .education, .paragraph,
+  .head1, .icon{
+    justify-content: center;
+    text-align: center;
+    
+  }
+  #social{
+    text-align: center;
+    justify-content: center;
   }
   }
   /* tablet*/
